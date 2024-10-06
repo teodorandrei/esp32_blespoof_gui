@@ -3,7 +3,7 @@ Easy to use ESP32 BLE Spoofer with Tkinter GUI
 
 # BLE Spoofing Script with ESP32 and Python GUI
 
-This project is based on [ESP32-Sour-Apple by RapierXbox](https://github.com/RapierXbox/ESP32-Sour-Apple/tree/main) and allows you to perform **BLE spoofing** to simulate various Apple and non-Apple devices (such as AirPods, Apple TV, Samsung Galaxy Buds, and more) using an **ESP32** microcontroller. A simple **Python GUI** is provided to control which device you want to spoof and to start or stop the spoofing process.
+This project is based on [EvilAppeJuice by ckcr4lyf](https://github.com/ckcr4lyf/EvilAppleJuice-ESP32/tree/master) and allows you to perform **BLE spoofing** to simulate various Apple and non-Apple devices (such as AirPods, Apple TV, Samsung Galaxy Buds, and more) using an **ESP32** microcontroller. A simple **Python GUI** is provided to control which device you want to spoof and to start or stop the spoofing process.
 
 ## Table of Contents
 - [Features](#features)
@@ -27,9 +27,9 @@ This project is based on [ESP32-Sour-Apple by RapierXbox](https://github.com/Rap
 
 ## Installation
 
-### 1. Install RapierXbox's [SourApple](https://github.com/RapierXbox/ESP32-Sour-Apple/tree/main)
-2. Inside esp32_ble_spoof_gui.py, change the port variable to your desired serial port
-3. Run the script using `python3 esp32_ble_spoof_gui.py`
+### 1. Upload `esp32_blespoof_gui.ino` to your ESP32 board
+2. Inside `esp32_blespoof_gui.py` change the `port` variable to your desired port (check Device Manager on Windows)
+3. Run `esp32_blespoof_gui.py` using Python3.x
 
 ## 🚫 Warning / Disclaimer
 Only use this on devices you own or when you have permisson to use it.
